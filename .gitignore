@@ -1,0 +1,35 @@
+﻿# Build outputs
+/bin/
+/obj/
+
+# Visual Studio
+/.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.ipch
+
+# MSVC / linker / debug artifacts
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.exp
+*.res
+*.tlog
+*.lastbuildstate
+*.log
+
+# Runtime files
+pin.txt
+saninet_trace.log
+trace.log
+
+# OS noise
+Thumbs.db
+Desktop.ini
