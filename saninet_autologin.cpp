@@ -73,7 +73,7 @@ std::filesystem::path ModuleDir(HMODULE module) {
 }
 
 std::filesystem::path DataDir() {
-    return std::filesystem::current_path();
+    return ModuleDir(g_module);
 }
 
 std::filesystem::path LogPath() {

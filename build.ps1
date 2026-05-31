@@ -34,7 +34,7 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $msbuild = Find-MSBuild
 
 $projects = @(
-    Join-Path $scriptDir 'saninet_autologin.vcxproj',
+    Join-Path $scriptDir 'saninet_autologin.vcxproj'
     Join-Path $scriptDir 'saninet_injector.vcxproj'
 )
 
